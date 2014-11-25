@@ -13,10 +13,10 @@ chrome.runtime.onMessage.addListener(
     function(request){
         console.log(request.text);
             chrome.browserAction.setIcon({
-                "path":"blink.png" }); // setIcon to blink
+                "path":"resources/blink.png" }); // setIcon to blink
             window.setInterval(function(){
                 chrome.browserAction.setIcon({
-                    "path":"base.png" }); 
+                    "path":"resources/base.png" }); 
             }, 300); // setIcon back to base after 300ms
 
     }

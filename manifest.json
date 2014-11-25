@@ -14,7 +14,7 @@
         "tabs"
     ],
     "browser_action":{
-        "default_icon":"base.png",
+        "default_icon":"resources/base.png",
         "default_popup": "popup.html"
     },
     "content_scripts": [
